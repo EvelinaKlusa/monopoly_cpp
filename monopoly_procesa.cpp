@@ -1265,13 +1265,6 @@ std::vector<Property> ipasumi = {
 };
 
 
-
-//testee - parasts, nullptr
-
-// gajiens
-// replace_player
-// spele
-
 int main() {
     Player sp1 = { 0, 100000,{}, {}, 0,{}, "es" };
     Player sp2 = { 0, 100000,{13}, {}, 0,{}, "tu" };
