@@ -1,11 +1,3 @@
-// velreiz_mon.cpp : Defines the entry point for the application.
-//
-
-// macos_cpp.cpp : Defines the entry point for the application.
-
-// ipasumi un kartites - visi vajadzīgie saraksti
-
-//#include "ipasumi.h"
 #include <random>
 #include <iostream>
 #include <vector>
@@ -18,7 +10,6 @@
 #include <cstdlib>
 #include <numeric>
 #include <ctime>
-
 
 using namespace std;
 
@@ -1304,7 +1295,7 @@ int main() {
     //std::tuple<std::vector<Player>, Player, int, std::vector<Property>, std::vector<std::string>, std::vector<std::string>> rez = gajiens(spi, sp1, 0, ipasumi, chance_kartites, community_chest_kartites);
     std::string rez = spele({ {13, 3}, {2, 4}, {} });
     
-    std::cout << "te" << "\n";
+    std::cout << "viss iet, spele neiet :(" << "\n";
     std::cout << rez << "\n";
 
 
